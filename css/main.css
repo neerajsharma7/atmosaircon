@@ -35,6 +35,7 @@ h4 {
 	font-weight: 600;
 }
 
+
 .set-header {	 
     font-size: 14px;    
     background-color : #202024;
@@ -51,13 +52,13 @@ h4 {
 
 .navbar-default {
 	border: 0px none;
-	border-bottom : 1px solid #FF3B30;
+	border-bottom : 1px solid #FBC035;
 }
 .navbar-collapse > .navbar-nav a {
 	border: 1px solid transparent;
 	border-spacing : 2px;
 	margin:7px;
-    padding:7px;
+  padding:7px;
 }
 .navbar-collapse > .navbar-nav a:hover,
 .navbar-collapse .navbar-nav >.active > a,
@@ -96,19 +97,22 @@ h4 {
 
 .logo {
 	position : absolute;
-	background-color: #FF3B30;
-	padding: 0px 40px 0px 200px;
+	background-color: #FBC035;
+	padding: 0px 40px 0px 20px;
 	min-height: 74px;
 	font-size : 25px;
 	float:left;
 	overflow:hidden;
+  height:92px;
+  left:0px;
+  margin-top:-25px;
 }
 
 .logo img {
-	width:150px;
-	height:70px;
+	width:200px;
+	height:100px;
 	float: left;
-	margin-top:-10px;
+	margin-top:-25px;
 }
 
 .logo a {
@@ -162,7 +166,7 @@ h4 {
 }
 
 .service_heading {
-	color : #FF3B30;	
+	color : #FBC035;	
 }
 
 .service_image {	
@@ -223,8 +227,12 @@ h4 {
 .button_style,
 .button_style:hover,
 .button_style:focus {
-	background-color: #FF3B30;
-	border: 1px solid #FF3B30;
+	background-color: #FBC035;
+	border: 1px solid #FBC035;
+}
+
+.banner_images{
+  height:500px;
 }
 
 .form-control, input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea, select {
@@ -242,7 +250,7 @@ h4 {
 }
 
 .site_name {
-	color:#FF3B30;
+	color:#FBC035;
 }
 
 .welcome_box {
@@ -252,15 +260,15 @@ h4 {
 
 .welcome_box a {
 	margin-left:70px;
-	background-color:#FF3B30;
-	border:1px solid #FF3B30;
+	background-color:#FBC035;
+	border:1px solid #FBC035;
 }
 
 .services_row {
 	padding:30px 0px 20px 20px;
 }
 .services_row .col-md-4:hover .services_box {
-	background-color:#FF3B30;
+	background-color:#FBC035;
 }
 
 
@@ -275,7 +283,7 @@ h4 {
 
 .service .panel:hover .read_more {
 	font-weight:bold;
-	color:#FF3B30;
+	color:#FBC035;
 }
 
 .services_box {
@@ -296,7 +304,7 @@ h4 {
 }
 
 .services_name {
-	color:#FF3B30;
+	color:#FBC035;
 	font-size:15px;
 	font-weight:bold;
 }
@@ -330,7 +338,7 @@ h4 {
 
 .services_add_box:hover .read_more {
 	font-weight:bold;
-	color:#FF3B30;
+	color:#FBC035;
 }
 
 .extra_services {
@@ -377,7 +385,7 @@ h4 {
 	float:right;
 	margin:-98px -35px 0px 0px;
 	border-top: 10px solid transparent;
-	border-left: 20px solid #FF3B30;
+	border-left: 20px solid #FBC035;
 	border-bottom: 10px solid transparent;
 }
 
@@ -837,16 +845,16 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 }
 @media(min-width:768px){
 	.logo {
-		padding: 0px 40px 0px 50px;
+		padding: 0px 40px 0px 30px;
 	}
 }
 @media(min-width:992px){
 	.logo {
-		padding: 0px 40px 0px 100px;
+		padding: 0px 40px 0px 20px;
 	}
 }
 @media(min-width:1200px){
 	.logo {
-		padding: 0px 40px 0px 200px;
+		padding: 0px 40px 0px 50px;
 	}
 }
