@@ -105,14 +105,13 @@ h4 {
 	overflow:hidden;
   height:92px;
   left:0px;
-  margin-top:-25px;
+  margin-top:-10px;
 }
 
 .logo img {
-	width:200px;
+	width:220px;
 	height:100px;
 	float: left;
-	margin-top:-25px;
 }
 
 .logo a {
