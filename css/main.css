@@ -105,7 +105,7 @@ h4 {
 	overflow:hidden;
   height:92px;
   left:0px;
-  margin-top:-10px;
+  margin-top:-18px;
 }
 
 .logo img {
@@ -118,7 +118,11 @@ h4 {
 	color : #fff;
 }
 
-.logo a:hover {
+.logo : hover {
+    text-decoration: none;
+}
+
+.logo img:hover {
     text-decoration: none;
 }
 
