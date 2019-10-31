@@ -110,8 +110,9 @@ h4 {
 
 .logo img {
 	width:220px;
-	height:100px;
+	height:150px;
 	float: left;
+  margin-top: -20px;
 }
 
 .logo a {
